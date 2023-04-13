@@ -368,6 +368,21 @@
                 </li>
             </ul>
            </div>
+           <div class="footer-form-subscribe">
+                <p class="footer-media-title">Subscribe</p>
+                <form class="footer-form">
+                    <label for="user-email" aria-label="Enter your email">
+                        <input type="text" name="subscribe-user-email" id="user-email" 
+                        class="footer-input" placeholder="E-mail">
+                    </label>
+                    <button class="footer-btn" type="submit">
+                        Subscribe
+                        <svg class="footer-btn-icon">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                        </button>
+                </form>
+            </div>
         </div>
     </footer>
     <!-- modal-window -->
@@ -395,7 +410,7 @@
                         <span class="modal-label-description"> Phone </span>
                         <span class="form-item">
                             <input type="tel" name="user-phone" id="phone" class="modal-input" 
-                            required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}[0-9]{2}" title="xxx-xxx-xx-xx">
+                            required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
                             <svg class="modal-icon">
                                 <use href="./images/icons.svg#phone"></use>
                             </svg>
@@ -404,19 +419,19 @@
                     <label for="email" class="modal-label">
                         <span class="modal-label-description"> Email </span>
                         <span class="form-item">
-                            <input type="text" name="user-email" id="email" class="modal-input">
+                            <input type="text" name="user-email" id="email" 
+                            class="modal-input">
                             <svg class="modal-icon">
                                 <use href="./images/icons.svg#email"></use>
                             </svg>
                         </span>
                     </label>
-                    <label for="comment" class="modal-label">
+                    <label for="comment" class="modal-label-comment">
                         <span class="modal-label-description"> Comment </span>
                         <textarea name="comment" id="comment" class="modal-textarea" placeholder="Text input"></textarea>
-
                     </label>
-                    <input id="user-polisy" type="checkbox" name="user_polisy" class="modal-input">
-                    <label for="user-polisy" class="modal-label-check">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                    <input id="user-polisy" type="checkbox" name="user_polisy" class="modal-input-check visually-hidden">
+                    <label for="user-polisy" class="modal-label-check">I accept the terms and conditions of the&nbsp;<a class="privacy-link" href="">Privacy Policy</a></label>
                     <button type="submit" class="modal-btn-send">Send</button>
                 </form>
             </div>
