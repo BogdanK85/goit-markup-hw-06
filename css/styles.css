@@ -508,9 +508,13 @@ body {
 }
 .footer-box {
     display: flex;
-    gap: 120px;
 }
-
+.footer-logo-container {
+    margin-right: 120px;
+}
+.footer-media {
+    margin-right: 120px;
+}
 .footer-media-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -585,6 +589,8 @@ body {
 
 }
 .footer-input {
+    width: 264px;
+    height: 40px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
@@ -668,8 +674,7 @@ body {
     /* transform: translate(-50%, -50%); */
 
     width: 408px;
-    height: 576px;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
     background-color: var(--dairy-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -721,8 +726,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.02em;
-    margin-top: 48px;
+    letter-spacing: 0.02em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     margin-bottom: 16px;
     color: var(--navy-blue-modal-color);
 }
